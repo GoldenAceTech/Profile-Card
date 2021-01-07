@@ -85,4 +85,9 @@ footer {
     font-size: 0.7em;
     width: 100%;
     text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #3d73e0;
 }
