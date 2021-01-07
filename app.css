@@ -12,10 +12,12 @@ body {
 
 h3 {
    color: hsl(229, 23%, 23%);
+   font-weight: 700; 
 }
 
 span,p {
     color: hsl(227, 10%, 46%);
+    font-weight: 400;
 }
 /* CONTAINER FOR THE CARD */
 #container {
@@ -59,7 +61,6 @@ img {
     height: 50%;
 }
 span {
-    font-weight: 400;
     padding-left: 0.5em;
 }
 #location {
