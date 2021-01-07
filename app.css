@@ -12,7 +12,8 @@ body {
 
 h3 {
    color: hsl(229, 23%, 23%);
-   font-weight: 700; 
+   font-weight: 700;
+   font-size: 18px;
 }
 
 span,p {
