@@ -1,3 +1,4 @@
+/* GENERAL STYLES */
 body {
     margin: auto;
     background: bottom 40vh right 50vw url('images/bg-pattern-top.svg') no-repeat, 
@@ -7,6 +8,14 @@ body {
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
+}
+
+h3 {
+   color: hsl(229, 23%, 23%);
+}
+
+span,p {
+    color: hsl(227, 10%, 46%);
 }
 /* CONTAINER FOR THE CARD */
 #container {
@@ -52,11 +61,9 @@ img {
 span {
     font-weight: 400;
     padding-left: 0.5em;
-    color: hsla(0, 0%, 59%, 0.8);
 }
 #location {
     font-size: 0.9em;
-    color: hsla(0, 0%, 59%, 0.8);
 }
 
 /* BOTTOM PART OF CARD */
@@ -68,12 +75,11 @@ span {
     line-height: 1.2;
     background-color: white;
     border-radius: 0 0 1em 1em;
-    border-top: 1px solid hsla(0, 0%, 59%, 0.3);
+    border-top: 1px solid hsl(0, 0%, 59%);
 }
 
 #interactions p {
     font-size: 0.65em;
-    color: hsla(0, 0%, 59%, 0.8);
 }
 h3, p {
     margin: 0;
@@ -85,8 +91,10 @@ footer {
     font-size: 0.7em;
     width: 100%;
     text-align: center;
-    color: white;
 }
-a {
+footer p {
+    color: #ffffff;
+}
+footer a {
     color: #000000;
 }
