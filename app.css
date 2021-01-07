@@ -14,11 +14,13 @@ h3 {
    color: hsl(229, 23%, 23%);
    font-weight: 700;
    font-size: 18px;
+    margin: 0;
 }
 
 span,p {
     color: hsl(227, 10%, 46%);
     font-weight: 400;
+    margin: 0;
 }
 /* CONTAINER FOR THE CARD */
 #container {
@@ -61,7 +63,7 @@ img {
     justify-content: space-evenly;
     height: 50%;
 }
-span {
+#age {
     padding-left: 0.5em;
 }
 #location {
@@ -83,9 +85,7 @@ span {
 #interactions p {
     font-size: 0.65em;
 }
-h3, p {
-    margin: 0;
-}
+
 /* FOOTER */
 footer {
     position: absolute;
