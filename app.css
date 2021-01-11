@@ -39,6 +39,8 @@ span,p {
     display: grid;
     grid-template-rows: 2fr 2.4fr 1.5fr;
     margin-bottom: 10px;
+    box-shadow: 1px 1px 13px 6px rgba(0,0,0,0.15);
+    border-radius: 1em;
 }
 /* CARD TOP WITH PATTERN */
 #card-top {
